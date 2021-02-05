@@ -1,0 +1,23 @@
+[2021-02-03 14:43:07,696] iu09-r20.pun.seagate.com/INFO/locust_utils: Max_Pool_Connections: 500
+[2021-02-03 14:43:07,712] iu09-r20.pun.seagate.com/INFO/locust_auth: Minimum Object Size: 5 KB
+[2021-02-03 14:43:07,712] iu09-r20.pun.seagate.com/INFO/locust_auth: Maximum Object Size: 50 KB
+[2021-02-03 14:43:07,713] iu09-r20.pun.seagate.com/INFO/locust.main: Run time limit set to 60 seconds
+[2021-02-03 14:43:07,713] iu09-r20.pun.seagate.com/INFO/locust.main: Starting Locust 0.11.0
+[2021-02-03 14:43:07,713] iu09-r20.pun.seagate.com/INFO/locust.runners: Hatching and swarming 10000 clients at the rate 1 clients/s...
+[2021-02-03 14:44:07,594] iu09-r20.pun.seagate.com/INFO/locust.main: Time limit reached. Stopping Locust.
+[2021-02-03 14:44:07,720] iu09-r20.pun.seagate.com/INFO/locust.main: Shutting down (exit code 0), bye.
+[2021-02-03 14:44:07,721] iu09-r20.pun.seagate.com/INFO/locust.main: Cleaning up runner...
+[2021-02-03 14:44:07,760] iu09-r20.pun.seagate.com/INFO/locust.main: Running teardowns...
+ Name                                                          # reqs      # fails     Avg     Min     Max  |  Median   req/s
+--------------------------------------------------------------------------------------------------------------------------------------------
+ getservice getservice1                                          1373     0(0.00%)     954      38    4891  |     790   20.20
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Total                                                           1373     0(0.00%)                                      20.20
+
+Percentage of the requests completed within given times
+ Name                                                           # reqs    50%    66%    75%    80%    90%    95%    98%    99%   100%
+--------------------------------------------------------------------------------------------------------------------------------------------
+ getservice getservice1                                           1373    790   1300   1600   1700   2000   2100   2300   2500   4900
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Total                                                            1373    790   1300   1600   1700   2000   2100   2300   2500   4900
+
